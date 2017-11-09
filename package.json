@@ -1,0 +1,20 @@
+{
+  "name": "custom.ui5",
+  "version": "1.0.0",
+  "description": "Custom control library for SAP UI5",
+  "main": "index.js",
+  "scripts": {
+    "start": "grunt serve",
+    "build": "grunt build",
+    "postinstall": "bower install"
+  },
+  "author": "Milan Nankov",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-openui5": "^0.12.0"
+  }
+}

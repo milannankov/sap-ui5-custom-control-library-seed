@@ -1,0 +1,18 @@
+<mvc:View 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns="sap.m" 
+	xmlns:custom="custom.ui5"
+	controllerName="custom.ui5.demo.controller.App" 
+	displayBlock="true">
+	<Shell>
+		<App>
+			<Page title="{i18n>TITLE}" backgroundDesign="Solid">
+				<subHeader>
+				</subHeader>
+				<content>
+					<custom:customControl></custom:customControl>
+				</content>
+			</Page>
+		</App>
+	</Shell>
+</mvc:View>

@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+# Custo library output
+webapp/custom
+dist
